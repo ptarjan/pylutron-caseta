@@ -1,10 +1,11 @@
 """Guide the user through pairing and save the necessary files."""
 
-# `python -m venv env`
+# if you don't have pip: `sudo pip install virtualenv`
+# `virtualenv env`
 # bash: `source ./env/bin/activate`
 # powershell: `./env/scripts/activate.ps1`
 # `pip install pyOpenSSL==19.1.0`
-# `python get_lutron_cert.py`
+# `python3 get_lutron_cert.py`
 
 # your client key         -> caseta.key
 # your client certificate -> caseta.crt
